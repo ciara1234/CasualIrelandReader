@@ -19,7 +19,7 @@ pip install cryptography==2.1.4
 Server runs at http://localhost:5000
 
 
-##Steps
+#Steps
 
 Run the python script
 

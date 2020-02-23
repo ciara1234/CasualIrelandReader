@@ -10,17 +10,20 @@ Installed Win64OpenSSL-1_1_0L.exe
 # Lots of messing with pip
 
 pip install simplejson
-pip3 install Werkzeug==0.16
-pip install cryptography==2.1.4
 
+pip3 install Werkzeug==0.16
+
+pip install cryptography==2.1.4
 
 
 Server runs at http://localhost:5000
 
 
 ** Steps
-*Run the python script
-* Run ngrok in the terminal
+
+Run the python script
+
+Run ngrok in the terminal
 ngrok http 5000
 
 The https url is what we want to copy to the Endpoint in developer.amazon.com
